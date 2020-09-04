@@ -1,0 +1,100 @@
+@media screen and (max-width: 1270px) {
+	#bottom-padding{
+		padding: 50px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1160px) {
+	#bottom-padding{
+		padding: 80px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 991px){
+	/*main*/
+	.my-link{
+		font-size: 1rem;
+	}
+	.logo{
+		width: 12%;
+	}
+	.navbar-brand{
+		text-align: center;
+	}
+	.justif-cont{
+		justify-content: center;
+	}
+	.nav-padding {
+   	 	padding: 0rem;
+	}
+	.search-box {
+	    top: 54px;
+    	right: 22%;
+	}
+	/*korzina*/
+	.text{
+		font-size: 36px;
+	}
+	/*services*/
+	.services-img-center{
+		margin-top: 40px;
+	}
+	/*payment*/
+	.payment-text h2{
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width: 767px){
+	.footer-block{
+		padding: 50px;
+
+	}
+	.footer-logo{
+		display: none;
+	}
+	.carousel{
+		display: none;
+	}
+	.contact-text{
+		top: 5%;
+	}
+	.services-fruit-1 img{
+		display: none !important;
+	}
+	.services-fruit-2 img{
+		display: none !important;
+	}
+	.contact-text, .contact-number{
+		top: 1%;
+
+	}
+	.contact-background{
+	    height: 150%; 
+	    width: 150%;
+	  }
+}
+@media screen and (max-width: 500px){
+	.services-fruit-1, .services-fruit-2 {
+		width: 200px;
+	}]
+}
+@media screen and (max-width: 270px){
+	
+	/*services*/
+	.services-fruit-1, .services-fruit-2{
+		width: 150px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

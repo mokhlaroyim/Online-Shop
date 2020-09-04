@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="44" viewBox="0 0 48 44">
+  <defs>
+    <style>
+      .a {
+        fill: #3a3a3a;
+      }
+    </style>
+  </defs>
+  <title>9 Shopping Cart_4</title>
+  <g>
+    <path class="a" d="M42,33H17a2,2,0,0,1-1.94-1.53L10,10.51a.25.25,0,0,1,0-.07L8.43,4H2A2,2,0,0,1,2,0h8a2,2,0,0,1,1.94,1.53L13.51,8H46a2,2,0,0,1,1.54.72A2,2,0,0,1,48,10.37l-4,21A2,2,0,0,1,42,33ZM18.57,29H40.35l3.23-17H14.47Z"/>
+    <circle class="a" cx="20.67" cy="40.5" r="3.5"/>
+    <circle class="a" cx="38.67" cy="40.5" r="3.5"/>
+  </g>
+</svg>

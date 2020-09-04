@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <meta lang="ru">
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/media.css">
+    <link rel="stylesheet" href="./src/bootstrap-4.0.0-dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="./src/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>   
+    <title>Getting Started</title>
+    <script src="./src/style.js"></script>  
+  </head> 
+  <body>
+    <div class="container-fluid">
+      <!-- navigator -->
+      <div class="row margin-top">
+        <nav class="navbar fixed-top navbar-inner-header my-nav">
+          <a class="navbar-brand col-12 col-lg-2" href="#">
+            <img  class = "logo" src="./image/logo2.png" alt="logo">
+          </a>
+          <ul class="nav justif-cont nav-padding col-12 col-lg-9">
+            <li><a class="nav-link my-link" href="./index.html">Главная</a></li>
+            <li><a class="nav-link my-link" href="./about.html">О Нас</a></li>
+            <li><a class="nav-link my-link" href="./services.html">Отлата и Услуги</a></li>
+            <li><a class="nav-link my-link" href="./contact.html">Контакты</a></li>
+            <li>
+              <a class="nav-link my-link" href="./korzina.html">
+                <img src="./src/svg/9 Shopping Cart_4.svg">
+                <div class="circle"><span class="counter">2</span></div>
+              </a>
+            </li>
+            <li class="active">
+              <a class = "nav-link" id="my-search" href="#" style="padding-top: 12px;">
+                <img src="./src/svg/11 Search.svg">
+              </a>
+            <div class="search-box" area-hidden="true">
+                <input type="text" placeholder=""/>
+                <input type="button" value="Search"/>
+            </div>
+            </li>
+          </ul>
+        </nav>
+        <div id="search">
+           <label for="search" class="search-label"></label>
+           <input type="search" id="search" autocomplete="off" class="input-search"/>
+        </div>
+        <div class="col-12 korzina-main-img" style="text-align: center">
+          <p class="text text-italic">Корзина</p>
+            <img src="./image/strawberries-background-picjumbo-comcopy.png">
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <div class="korzina-guarantee p-3 mt-4">
+            <img src="./image/quality_icon.png.pagespeed.ce.-5SXYg_Qj5.png">
+          </div>
+          <div class="korzina-guarantee p-3 mt-4">
+            <img src="./image/quality_icon.png.pagespeed.ce.-5SXYg_Qj5.png">
+          </div>
+          <div class="korzina-guarantee p-3 mt-4">
+            <img src="./image/quality_icon.png.pagespeed.ce.-5SXYg_Qj5.png">
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row korzina-rmtop">
+            <div class="col-2 korzina-info mb-3" style="text-align: center;">Фото</div>
+              <div class="col-3 korzina-info mb-3" style="text-align: center;">Товар</div>
+                <div class="col-1 korzina-info mb-3" style="text-align: center;">Кол-во</div>
+              <div class="col-2 korzina-info mb-3" style="text-align: center;">Цена</div>
+            <div class="col-4 korzina-info mb-3 pl-5">Всего</div>
+
+          <!-- with-backgroung-color -->
+
+            <div class="korzina-product-wrapper1 col-2">
+              <img src="./image/vegetables.jpg">
+            </div>
+            <div class="korzina-product-wrapper1 col-3 m-auto korzina-padding">
+                <h6>Название продукта</h6>
+            </div>
+              <div class="korzina-product-wrapper1 col-1 m-auto korzina-padding">2 шт</div>
+                <div class="korzina-product-wrapper1 col-2 m-auto korzina-padding">1 200 КRW</div> 
+                  <div class="korzina-product-wrapper1 col-2 m-auto korzina-padding">1 200 КRW</div>
+                <div class="korzina-product-wrapper1 col-2 m-auto korzina-padding">
+                  <div class="korzina-counter">+</div>
+                    <div class="korzina-counter">-</div>
+                  <div class="korzina-cancel">x</div>
+                </div>
+
+
+          <!-- without-backgroung-color -->
+            <div class="korzina-product-wrapper2 col-2">
+              <img src="./image/vegetables.jpg">
+            </div>
+            <div class="korzina-product-wrapper2 col-3 m-auto korzina-padding">
+                <h6>Название продукта</h6>
+            </div>
+              <div class="korzina-product-wrapper2 col-1 m-auto korzina-padding">2 шт</div>
+                <div class="korzina-product-wrapper2 col-2 m-auto korzina-padding">1 200 КRW</div> 
+              <div class="korzina-product-wrapper2 col-2 m-auto korzina-padding">1 200 КRW</div>
+            <div class="korzina-product-wrapper2 col-2 m-auto korzina-padding">
+              <div class="korzina-counter">+</div>
+                <div class="korzina-counter">-</div>
+              <div class="korzina-cancel">x</div>
+            </div>
+
+          <div class=" line"><h5>Итоги: 10 000 KRW</h5></div>
+            <div class="check-out p-2">
+              <span>Оплатить сейчас со скидкой -10%</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+   <br><br><br><br><br><br>
+  </body>
+  <footer>
+    <div class="footer-border">
+      <div class="container-fluid container-margin">
+        <div class="row">
+          <div class="footer-logo col-md-2"><img src="./image/logo2.png"></div>
+            <div class="footer-block col-12 col-md-3" style="text-align: center;">
+              <h1 class="">uzbechka</h1>
+              <p class="footer-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, incidunt, beatae! Earum minima asperiores totam, eos fugit odit animi doloremque magni rerum placeat, dolores non. Ratione obcaecati rem eveniet non.</p>
+            </div>
+            <div class="footer-block col-12 col-md-3" style="text-align: center;">
+              <h1>контакты</h1>
+              <p class="contact"> <img class="svg-icons" src="./src/svg/communication-media_call ohine connecting online support tech support.svg" alt="">Телефон: +82 1080602404</p>
+              <p class="contact"> <img class="svg-icons" src="./src/svg/Essentials_navigation arrow gps cursor interface.svg" alt="">Telegram: +82 1080602404</p>
+              <p class="contact"><img class="svg-icons" src="./src/svg/Essentials_mail envelope email message mails multimedia.svg" alt="">Email: demo@demo.com</p>
+              <p class="contact"> <img class="svg-icons" src="./src/svg/Essentials_location gps map maps pin.svg" alt="">Адрес: 인 천광연수구 한 <br> 박뫼로4번길13-11 103 호(청학동)</p>
+            </div>
+          <div class="col-12 col-md-4" style="text-align: center;">
+            <div class="data-wrapper">
+              <h5 >Введите данные и мы позвоним Вам</h5>
+                <form action="#" >
+                  <input  class="form-view" name="firstname" type="text" placeholder="Введите имя"> <br>
+                    <input class="form-view" name="firstname" type="text" placeholder="Введите телефон"> <br>
+                     <textarea name="comment" form="usrform" class="form-view" placeholder="Оставьте комментарий"></textarea>
+                  <input class="submit-btn" type="submit" value="Отправить">
+                </form>
+            </div>
+          </div>
+          <div class="col-12 p-3 mt-1 footer-bottom">
+            <h6>Интернет магазин натуральных продуктов UZBECHKA</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta lang="ru">
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/media.css">
+    <link rel="stylesheet" href="./src/bootstrap-4.0.0-dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="./src/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>   
+    <title>Getting Started</title>
+    <script src="./src/style.js"></script>  
+  </head> 
+  <body>
+    <div class="container-fluid">
+      <!-- navigator -->
+      <div class="row margin-top">
+        <nav class="navbar fixed-top navbar-inner-header my-nav">
+          <a class="navbar-brand col-12 col-lg-2" href="#">
+            <img  class = "logo" src="./image/logo2.png" alt="logo">
+          </a>
+          <ul class="nav justif-cont nav-padding col-12 col-lg-9">
+            <li><a class="nav-link my-link" href="./index.html">Главная</a></li>
+            <li><a class="nav-link my-link" href="./about.html">О Нас</a></li>
+            <li><a class="nav-link my-link" href="./services.html">Отлата и Услуги</a></li>
+            <li><a class="nav-link my-link" href="./contact.html">Контакты</a></li>
+            <li>
+              <a class="nav-link my-link" href="./korzina.html">
+                <img src="./src/svg/9 Shopping Cart_4.svg">
+                <div class="circle"><span class="counter">2</span></div>
+              </a>
+            </li>
+            <li class="active">
+              <a class = "nav-link" id="my-search" href="#" style="padding-top: 12px;">
+                <img src="./src/svg/11 Search.svg">
+              </a>
+            <div class="search-box" area-hidden="true">
+                <input type="text" placeholder=""/>
+                <input type="button" value="Search"/>
+            </div>
+            </li>
+          </ul>
+        </nav>
+          <div id="search">
+           <label for="search" class="search-label"></label>
+           <input type="search" id="search" autocomplete="off" class="input-search"/>
+        </div>
+          <div class="korzina-main-img">
+            <p class="text text-italic">Оплата и Услуги</p>
+            <img src="./image/Background.png" alt="">
+          </div>
+        <div class="p-4 text-italic col-12" style="text-align: center;"><span>Услуги</span></div>
+          <div class="col-3">
+            <div style="text-align: right;">
+              <div style="color: rgb(188, 0, 8);"><span class="text-italic">1</span>  
+                <p>Выращиваем натуральные<br>продукты</p></div>
+              <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aut, facilis nemo ab reprehenderit, amet dicta esse magnam odit nulla ducimus iure.</p>
+            </div>
+            <div style="text-align: right; margin-right: 40px">
+              <div style="color: rgb(17, 102, 196)"><span class="text-italic">2</span>  
+                <p>Продаем по всему миру</p></div>
+              <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aut, facilis nemo ab reprehenderit, amet dicta esse magnam odit nulla ducimus iure.</p>
+            </div>
+            <div class="services-position-1">
+              <div style="color: rgb(255, 150, 54)"><span class="text-italic">3</span>  
+                <p>Экспорт за границу</p></div>
+              <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aut, facilis nemo ab reprehenderit, amet dicta esse magnam odit nulla ducimus iure.</p>
+            </div>
+          </div>
+          <div class="col-6 services-img-center">
+            <img src="./image/vegetables.jpg" alt="">
+              <a href="./about.html">
+                <button class="btn btn-primary btn-lg mt-5">Подробнее</button>
+              </a>
+          </div>
+          <div class="col-3">
+            <div style="text-align: left;">
+              <div style="color: rgb(188, 0, 8);"><span class="text-italic">4</span>  
+                <p>Выращиваем натуральные<br>продукты</p></div>
+              <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aut, facilis nemo ab reprehenderit, amet dicta esse magnam odit nulla ducimus iure.</p>
+            </div>
+            <div style="text-align: left; margin-left: 40px">
+              <div style="color: rgb(17, 102, 196)"><span class="text-italic">5</span>  
+                <p>Продаем по всему миру</p></div>
+              <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aut, facilis nemo ab reprehenderit, amet dicta esse magnam odit nulla ducimus iure.</p>
+            </div>
+            <div class="services-position-2">
+              <div style="color: rgb(255, 150, 54)"><span class="text-italic">6</span>  
+                <p>Экспорт за границу</p></div>
+              <p class="services-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aut, facilis nemo ab reprehenderit, amet dicta esse magnam odit nulla ducimus iure.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="bottom-padding"></div>
+   <br><br><br><br><br><br>
+  </body>
+  <footer><br><br>
+    <div class="services-footer  d-flex" style="position: relative;">    
+      <div class="services-fruit-1"><img src="./image/greyfruitcopy.png" alt="">
+      </div>
+        <div style="margin: auto; padding: 20px;">
+          <p style="text-align: center; font-weight: 500">Гарантии и безопастность</p>
+          <ul>
+            <p>Заказывая продукцию на нашем сайте вы получаете:</span>
+              <li><input type="checkbox" checked="true"> Чек и скидку на покупку товаров оптом</li>
+                <li><input type="checkbox" checked="true"> Качественную экологическую упаковку и натуральные продукты</li>
+              <li><input type="checkbox" checked="true"> Бонусы, скидки и вкусные подарки</li>
+          </ul>
+          <div style="text-align: center;">
+            <a href="./index.html">
+              <button class="btn btn-primary btn-sm mt-1">Перейти в каталог</button>
+            </a>
+          </div>
+        </div>
+
+      <div class="services-fruit-2"><img src="./image/pineapple.png" alt="">
+      </div>
+    </div><br><br>
+
+      <div class="col-12 p-3 mt-1 footer-bottom">
+        <h6>Интернет магазин натуральных продуктов UZBECHKA</h6>
+      </div>
+    
+    
+  </footer>
+</html>

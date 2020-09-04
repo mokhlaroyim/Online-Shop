@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta lang="ru">
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/media.css">
+    <link rel="stylesheet" href="./src/bootstrap-4.0.0-dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="./src/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>   
+    <title>Getting Started</title>
+    <script src="./src/style.js"></script>
+      <!-- oформить -->
+      <script>
+        
+      </script>
+  </head> 
+  <body style="background: rgb(64, 179, 0);">
+    <div class="container-fluid">
+      <div class="row margin-top">
+        <!-- navigator -->
+          <nav class="navbar fixed-top navbar-inner-header my-nav">
+            <a class="navbar-brand col-12 col-lg-2" href="#">
+              <img  class = "logo" src="./image/logo2.png" alt="logo">
+            </a>
+            <ul class="nav justif-cont nav-padding col-12 col-lg-9">
+              <li><a class="nav-link my-link" href="./index.html">Главная</a></li>
+              <li><a class="nav-link my-link" href="./about.html">О Нас</a></li>
+              <li><a class="nav-link my-link" href="./services.html">Отлата и Услуги</a></li>
+              <li><a class="nav-link my-link" href="./contact.html">Контакты</a></li>
+              <li>
+                <a class="nav-link my-link" href="./korzina.html">
+                  <img src="./src/svg/9 Shopping Cart_4.svg">
+                  <div class="circle"><span class="counter">2</span></div>
+                </a>
+              </li>
+              <li class="active">
+                <a class = "nav-link" id="my-search" href="#" style="padding-top: 12px;">
+                  <img src="./src/svg/11 Search.svg">
+                </a>
+              <div class="search-box" area-hidden="true">
+                  <input type="text" placeholder=""/>
+                  <input type="button" value="Search"/>
+              </div>
+              </li>
+            </ul>
+          </nav>
+      <div id="search">
+        <label for="search" class="search-label"></label>
+        <input type="search" id="search" autocomplete="off" class="input-search"/>
+      </div>
+        <div class="col-12 payment-text text-align">
+          <h2>Введи свои данные для осуществления платежа</h2>
+        </div>
+        <div class="col-12  pt-2 pb-1">
+          <div class="col-2 display-inline">
+            <ul style="list-style-type: none;">
+              <li class="p-2 payment-text payment-text-1">Имя*</li>
+                <li class="p-2 payment-text payment-text-1">Почта*</li>
+                <li class="p-2 payment-text payment-text-1">Телефон*</li>
+              <li class="p-2 payment-text payment-text-1">Компания*</li>
+            </ul>
+          </div>
+          <div class="col-8 display-inline">
+            <ul class="payment-input" style="list-style-type: none">
+              <li class="padding"><input type="text"></li>
+                <li class="padding"><input type="text"></li>
+                <li class="padding"><input type="text"></li>
+              <li class="padding"><input type="text"></li>
+            </ul>
+          </div>
+        </div>
+          <div class="col-12 text-align pb-5">
+            <button class="btn btn-primary btn-large" id="#onclick">Оформить заказ</button>
+          </div>
+      </div>
+    </div>
+  </body>
+  <footer style="background: white">
+    <div class="footer-border">
+      <div class="container-fluid container-margin">
+        <div class="row">
+          <div class="footer-logo col-md-2"><img src="./image/logo2.png"></div>
+            <div class="footer-block col-12 col-md-3" style="text-align: center;">
+              <h1 class="">uzbechka</h1>
+              <p class="footer-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, incidunt, beatae! Earum minima asperiores totam, eos fugit odit animi doloremque magni rerum placeat, dolores non. Ratione obcaecati rem eveniet non.</p>
+            </div>
+            <div class="footer-block col-12 col-md-3" style="text-align: center;">
+              <h1>контакты</h1>
+              <p class="contact"> <img class="svg-icons" src="./src/svg/communication-media_call ohine connecting online support tech support.svg" alt="">Телефон: +82 1080602404</p>
+              <p class="contact"> <img class="svg-icons" src="./src/svg/Essentials_navigation arrow gps cursor interface.svg" alt="">Telegram: +82 1080602404</p>
+              <p class="contact"><img class="svg-icons" src="./src/svg/Essentials_mail envelope email message mails multimedia.svg" alt="">Email: demo@demo.com</p>
+              <p class="contact"> <img class="svg-icons" src="./src/svg/Essentials_location gps map maps pin.svg" alt="">Адрес: 인 천광연수구 한 <br> 박뫼로4번길13-11 103 호(청학동)</p>
+            </div>
+          <div class="col-12 col-md-4" style="text-align: center;">
+            <div class="data-wrapper">
+              <h5 >Введите данные и мы позвоним Вам</h5>
+                <form action="#" >
+                  <input  class="form-view" name="firstname" type="text" placeholder="Введите имя"> <br>
+                    <input class="form-view" name="firstname" type="text" placeholder="Введите телефон"> <br>
+                     <textarea name="comment" form="usrform" class="form-view" placeholder="Оставьте комментарий"></textarea>
+                  <input class="submit-btn" type="submit" value="Отправить">
+                </form>
+            </div>
+          </div>
+          <div class="col-12 p-3 mt-1 footer-bottom">
+            <h6>Интернет магазин натуральных продуктов UZBECHKA</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
+
+<!-- @media screen and (max-width: 991px){
+/*payment*/
+  .payment-text h2{
+    padding-top: 20px;
+  }
+}
+style.css
+/*payment*/
+  .payment-input input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px; 
+  }
+  .payment-text{
+    color: white;
+  }
+  .payment-text-1{
+    font-size: 18px;
+    text-align: right;
+    font-weight: 150;
+  }
+  .text-align{
+    text-align: center;
+  }
+  .padding{
+    padding: 5px;
+  }
+  .display-inline{
+    display: inline-block;
+  }
+ -->
